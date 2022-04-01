@@ -15,7 +15,7 @@ function addList(){
     let div = document.createElement("div")
     div.appendChild(document.createTextNode(cont.value))
     list.appendChild(div)
-
+    cont.value = ""
 }
 
 function rmvList(){
